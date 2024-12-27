@@ -4,6 +4,7 @@
  */
 package restaurantmanagementsystem;
 
+
 /**
  *
  * @author kk
@@ -14,8 +15,13 @@ public class RestaurantManagementSystem {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        AddProduct ad = new AddProduct();
-        ad.show();
+        
+        ASALogIn ASAFrame = new ASALogIn();
+        ASAFrame.setVisible(true);
+        ASAFrame.pack();
+        ASAFrame.setLocationRelativeTo(null); 
+//        AddProduct ad = new AddProduct();
+//        ad.show();
     }
 
 }
